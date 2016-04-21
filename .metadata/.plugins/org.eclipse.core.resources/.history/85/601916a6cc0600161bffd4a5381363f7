@@ -1,0 +1,9 @@
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class ServletConfiguration {
+
+	public HomeController homeController(){
+		return new HomeController();
+	}
+}

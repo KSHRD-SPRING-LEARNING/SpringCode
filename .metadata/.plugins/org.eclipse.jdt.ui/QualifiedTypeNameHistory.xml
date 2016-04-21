@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="com.kshrd.HomeController"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.EnableWebMvc"/>
+<fullyQualifiedTypeName name="org.springframework.web.WebApplicationInitializer"/>
+<fullyQualifiedTypeName name="javax.servlet.FilterRegistration.Dynamic"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletRegistration"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletRegistration.Dynamic"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.DispatcherServlet"/>
+<fullyQualifiedTypeName name="org.springframework.web.context.support.XmlWebApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.web.context.ContextLoader"/>
+<fullyQualifiedTypeName name="org.springframework.web.context.ContextLoaderListener"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="ServletConfiguration"/>
+<fullyQualifiedTypeName name="org.springframework.web.context.support.AnnotationConfigWebApplicationContext"/>
+</qualifiedTypeNameHistroy>

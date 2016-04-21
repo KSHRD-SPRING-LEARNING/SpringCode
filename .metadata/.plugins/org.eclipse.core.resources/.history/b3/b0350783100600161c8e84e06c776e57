@@ -1,0 +1,10 @@
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HelloController {
+
+	@RequestMapping(value="/")
+	public String hello(){
+		
+	}
+}

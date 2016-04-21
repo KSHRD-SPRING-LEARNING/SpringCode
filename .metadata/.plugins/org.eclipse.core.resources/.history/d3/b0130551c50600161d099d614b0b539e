@@ -1,0 +1,12 @@
+package com.kshrd;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class DashboardController {
+
+	@Bean
+	public String dashboard(){
+		return "/WEB-INF/dashboard.jsp";
+	}
+}

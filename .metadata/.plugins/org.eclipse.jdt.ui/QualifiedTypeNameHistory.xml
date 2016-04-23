@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
 <fullyQualifiedTypeName name="com.kshrd.HomeController"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
-<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.EnableWebMvc"/>
 <fullyQualifiedTypeName name="org.springframework.web.WebApplicationInitializer"/>
 <fullyQualifiedTypeName name="javax.servlet.FilterRegistration.Dynamic"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletRegistration"/>
@@ -16,4 +13,23 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
 <fullyQualifiedTypeName name="ServletConfiguration"/>
 <fullyQualifiedTypeName name="org.springframework.web.context.support.AnnotationConfigWebApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.EnableWebMvc"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ViewResolver"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+<fullyQualifiedTypeName name="com.springsource.tcserver.serviceability.request.DataSource"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.jdbc.pool.DataSource"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="entities.User"/>
 </qualifiedTypeNameHistroy>

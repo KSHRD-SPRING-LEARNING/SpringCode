@@ -1,0 +1,50 @@
+package controllers;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+import entities.User;
+import repositories.UserDAO;
+
+@Controller
+public class UserController {
+
+	//@Autowired
+	private UserDAO userDao; // = new UserDao()
+	
+	@Autowired
+	public UserController(UserDAO userDAO){
+		
+	}
+	
+	@RequestMapping(value="/users", method=RequestMethod.GET)
+	public String users(Model model){
+		model.addAttribute("MESSAGE", "HELLO HRD CENTER");
+		return "users";
+	}
+	
+	@RequestMapping(value="/usersModel", method=RequestMethod.GET)
+	public ModelAndView usersModelAndView(){
+		Map<String ,Object> model = new HashMap<String, Object>();
+		model.put("MESSAGE", "HELLO HRD CENTER FROM MODEL AND VIEW");
+		return new ModelAndView("users", model);
+	}
+
+	@RequestMapping(value="/users", method=RequestMethod.POST)
+	public String addNewUser(User user, Model model){
+		if(userDao.addNewUser(user)){
+			model.addAttribute("MESSAGE", "SUCCESS");
+		}else{
+			model.addAttribute("MESSAGE", "FAILED");
+		}
+		return "success";
+	}
+	
+}

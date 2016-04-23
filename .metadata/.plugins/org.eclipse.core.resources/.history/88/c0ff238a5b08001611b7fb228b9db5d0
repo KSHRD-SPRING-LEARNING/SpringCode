@@ -1,0 +1,6 @@
+package repositories;
+
+@POTATOES
+public class UserDAO {
+
+}

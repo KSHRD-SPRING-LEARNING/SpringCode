@@ -1,0 +1,39 @@
+package configurations;
+
+import javax.sql.DataSource;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.web.servlet.ViewResolver;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
+
+
+@Configuration
+@ComponentScan(basePackages="controllers")
+@EnableWebMvc
+public class ServletConfiguration extends WebMvcConfigurerAdapter{
+
+	@Bean
+	public ViewResolver viewResolver(){
+		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+		resolver.setPrefix("/WEB-INF/views/");
+		resolver.setSuffix(".jsp");
+		return resolver;
+	}
+	
+	public DataSource dataSource(){
+		DriverManagerDataSource dataSource = new DriverManagerDataSource();
+		/*dataSource.setUrl(environment.getProperty("AKN.datasource.url"));
+		dataSource.setDriverClassName(environment.getProperty("AKN.datasource.driver"));
+		dataSource.setUsername(environment.getProperty("AKN.datasource.username"));
+		dataSource.setPassword(environment.getProperty("AKN.datasource.password"));*/
+		return dataSource;
+		
+		return null;
+	}
+	
+}

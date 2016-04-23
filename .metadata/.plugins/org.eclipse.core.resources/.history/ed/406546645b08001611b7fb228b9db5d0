@@ -1,0 +1,8 @@
+package repositories;
+
+import org.springframework.stereotype.Repository;
+
+@POT
+public class UserDAO {
+
+}

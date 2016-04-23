@@ -1,0 +1,11 @@
+package repositories;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+@POTATOES
+public class UserDAO {
+
+	private JdbcTemplate jdbcTemplate;
+	
+
+}
